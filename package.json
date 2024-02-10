@@ -4,7 +4,7 @@
   "description": "This project is a clone of the TabNews website, created to improve my development skills.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev"
   },
   "author": "alex.dlli",
   "license": "MIT",
@@ -12,5 +12,10 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.17",
+    "@types/react": "18.2.55",
+    "typescript": "5.3.3"
   }
 }
