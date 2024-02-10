@@ -1,7 +1,10 @@
-import React from "react";
-
 function Home() {
-  return <h1>Teste</h1>;
+  return (
+    <h1>
+      Ei, saiba que eu não vou desistir fácil de voce, deixa de ser ranzinza vai
+      &lt;3!
+    </h1>
+  );
 }
 
 export default Home;
