@@ -9,7 +9,7 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write ."
   },
-  "author": "alex.dlli",
+  "author": "alexdlli",
   "license": "MIT",
   "dependencies": {
     "next": "^13.1.6",
