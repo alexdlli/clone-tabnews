@@ -4,7 +4,10 @@
   "description": "This project is a clone of the TabNews website, created to improve my development skills.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run services:up && next dev",
+    "services:up": "docker-compose -f docker/compose.yaml up -d",
+    "services:stop": "docker-compose -f docker/compose.yaml stop",
+    "services:down": "docker-compose -f docker/compose.yaml down",
     "build": "next build",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
